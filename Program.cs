@@ -220,6 +220,15 @@ kd,.......                   ..''','...  ......  .'','.''.                 ..;cc
                   \_____/_/    \_\_|  |_|______|  \____/   \/   |______|_|  \_\
             ");
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("\n---Press Enter to restart the game---");
+
+            // Wait for user to press Enter
+            Console.ReadLine();
+
+            // Clear the console
+            Console.Clear();
+
+            Main();
         }
         else if (input == "b")
         {
@@ -240,6 +249,15 @@ kd,.......                   ..''','...  ......  .'','.''.                 ..;cc
                   \_____/_/    \_\_|  |_|______|  \____/   \/   |______|_|  \_\
              ");
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("\n---Press Enter to restart the game---");
+
+            // Wait for user to press Enter
+            Console.ReadLine();
+
+            // Clear the console
+            Console.Clear();
+
+            Main();
         }
         else if (input == "c")
         {
@@ -500,6 +518,15 @@ ccc::ccccccccccccccccccccccccc::ccccc:,;:ccccccccccc:,,;;:::::;;;:::c:'..;cccccc
                   \_____/_/    \_\_|  |_|______|  \____/   \/   |______|_|  \_\
              ");
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("\n---Press Enter to restart the game---");
+
+            // Wait for user to press Enter
+            Console.ReadLine();
+
+            // Clear the console
+            Console.Clear();
+
+            Main();
         }
         else
         {
@@ -548,6 +575,15 @@ ccc::ccccccccccccccccccccccccc::ccccc:,;:ccccccccccc:,,;;:::::;;;:::c:'..;cccccc
                   \_____/_/    \_\_|  |_|______|  \____/   \/   |______|_|  \_\
             ");
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("\n---Press Enter to restart the game---");
+
+            // Wait for user to press Enter
+            Console.ReadLine();
+
+            // Clear the console
+            Console.Clear();
+
+            Main();
         }
         else if (input == "c")
         {
@@ -568,6 +604,15 @@ ccc::ccccccccccccccccccccccccc::ccccc:,;:ccccccccccc:,,;;:::::;;;:::c:'..;cccccc
                   \_____/_/    \_\_|  |_|______|  \____/   \/   |______|_|  \_\
              ");
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("\n---Press Enter to restart the game---");
+
+            // Wait for user to press Enter
+            Console.ReadLine();
+
+            // Clear the console
+            Console.Clear();
+
+            Main();
         }
         else if (input == "b")
         {
@@ -687,6 +732,10 @@ x'                           .'co;.                                             
             Console.WriteLine("\n                                                                    THE END\n");
 
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("\n---Press Enter to exit the game---");
+
+            // Wait for user to press Enter
+            Console.ReadLine();
         }
         else
         {
